@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("Dataset.csv")
+df = pd.read_csv("https://drive.google.com/uc?id=1HzSqBa_3ZCOre-jB64-nwuPHiEwAvbRZ
 
 years = st.multiselect("選擇年份", sorted(df["birthyear"].unique()), default=[2010])
 
@@ -17,4 +17,5 @@ ax.set_xlabel("Birth Year")
 ax.set_ylabel("Discharge Age (Days)")
 
 st.pyplot(fig)
+
 
