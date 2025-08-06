@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-url = "https://drive.google.com/uc?id=1HzSqBa_3ZCOre-jB64-nwuPHiEwAvbRZ"
+url = ""
 
 @st.cache_data
 def load_data():
@@ -22,6 +22,7 @@ ax.set_xlabel("Birth Year")
 ax.set_ylabel("Discharge Age (Days)")
 
 st.pyplot(fig)
+
 
 
 
